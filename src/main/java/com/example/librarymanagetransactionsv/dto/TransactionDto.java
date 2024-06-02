@@ -12,8 +12,8 @@ import java.util.List;
 public class TransactionDto {
     private Long id;
     private String userId;
-    private List<Long> booksId;
-    private List<String> booksIsbn;
+    private Long booksId;
+    private String booksIsbn;
     private String userEmail;
     private String userPhoneNum;
     private String date;
